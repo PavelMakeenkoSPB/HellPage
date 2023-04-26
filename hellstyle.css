@@ -13,6 +13,16 @@ body > h1 {
     -webkit-text-stroke: 0.01em #d40000;
 }
 
+/*Заголовок Добро пожаловать*/
+h1[name="header"] {
+    background-color: rgba(222, 184, 135, 0);
+    font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 420px;
+    -webkit-text-stroke: 0.01em #d40000;
+}
+
 /* body > h1{
     font-size: 30px;
     font-style: italic;
@@ -101,17 +111,6 @@ body > div:nth-child(5) > p:nth-child(7) {
     margin-top: 300px;
     margin-left: 180px;
 }
-
-/*Заголовок Добро пожаловать*/
-div[name="header"] {
-    background-color: rgba(222, 184, 135, 0);
-    font-family: monospace;
-    font-size: 30px;
-    font-style: italic;
-    margin-left: 420px;
-    -webkit-text-stroke: 0.01em #d40000;
-}
-
 
 
 /*Наша Здравница названа...*/
@@ -269,7 +268,7 @@ textarea[name="comment"] {
 }
 
 /*Приветственная картинка чертей*/
-div name="welcomeMans"]{
+div [name="welcomeMans"]{
     margin-top: -5510px;
     margin-left: 355px;
 }
