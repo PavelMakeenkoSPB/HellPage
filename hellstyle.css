@@ -43,7 +43,7 @@ h2 {
 }
 
 /*Вот и ты здесь..*/
-body > div:nth-child(5) > p:nth-child(2){
+div:nth-child(8) > p:nth-child(2){
     height: auto;
     width: 250px;
     margin-top: 50px;
