@@ -23,15 +23,6 @@ h1[name="header"] {
     -webkit-text-stroke: 0.01em #d40000;
 }
 
-/* body > h1{
-    font-size: 30px;
-    font-style: italic;
-    -webkit-text-stroke: 0.01em rgb(220, 38, 38);
-	margin-left: 420px;
-    margin-top: 50px;
-	padding-bottom:10px;
-} */
-
 h3 {
     font-size: 26px;
     font-style: italic;
@@ -62,14 +53,14 @@ h2 {
 }
 
 /*Вот и ты здесь..*/
-div:nth-child(8) > p:nth-child(2){
+p[name="vot"]{
     height: auto;
     width: 250px;
     margin-top: 50px;
 }
 
 /*Наша миссия..*/
-body > div:nth-child(8) > p:nth-child(3) {
+p[name="mission"] {
     background-color: rgba(222, 184, 135, 0);
     width: 1170px;
     font-family: monospace;
@@ -81,7 +72,7 @@ body > div:nth-child(8) > p:nth-child(3) {
 }
 
 /*Если для вас очевидно..*/
-body > div:nth-child(8) > p:nth-child(4){
+p[name="badFriend"]{
     height: auto;
     width: 350px;
     margin-top: -350px;
@@ -89,7 +80,7 @@ body > div:nth-child(8) > p:nth-child(4){
 }
 
 /*Мы дружная команда*/
-body > div:nth-child(8) > p:nth-child(5) {
+p[name="weBest"] {
     height: auto;
     width: 350px;
     margin-top: 150px;
@@ -97,15 +88,15 @@ body > div:nth-child(8) > p:nth-child(5) {
 }
 
 /*Благодаря запатентованной..*/
-body > div:nth-child(8) > p:nth-child(6) {
+p[name="time"] {
     height: auto;
     width: 350px;
     margin-top: -120px;
     margin-left: 670px;
 }
 
-/*Если вы окозались...*/
-body > div:nth-child(5) > p:nth-child(7) {
+/*Если вы у нас окажетесь вновь...*/
+p[name="petrovich"]{
     height: auto;
     width: 550px;
     margin-top: 300px;
@@ -227,7 +218,7 @@ div[name="aboutForm"]{
 }
 
 /*Кнопка Знайте же*/
-input [name="getinfo"] {
+input[name="getinfo"] {
     font-size: 26px;
     font-style: italic;
     -webkit-text-stroke: 0.01em rgb(220, 38, 38);
@@ -238,7 +229,7 @@ input [name="getinfo"] {
 }
 
 /*Кнопка Подбросить*/
-div[name="isubmit"] {
+input[name="isubmit"] {
     font-size: 26px;
     font-style: italic;
     -webkit-text-stroke: 0.01em rgb(220, 38, 38);
@@ -258,7 +249,7 @@ table[name="tableFeedback"] {
 }
 
 /*Анкета гостя*/
-form[name="anketa"] {
+p[name="anketa"] {
     width: 580px;
 }
 
@@ -268,8 +259,8 @@ textarea[name="comment"] {
 }
 
 /*Приветственная картинка чертей*/
-div [name="welcomeMans"]{
-    margin-top: -5510px;
+div[name="welcomeMans"]{
+    margin-top: -5530px;
     margin-left: 355px;
 }
 
@@ -298,8 +289,8 @@ div[name="tv"] {
 }
 
 /*Видео*/
-div [name="video"] {
-    margin-top: -315px;
+div[name="vset"] {
+    margin-top: -308px;
     margin-left: 1040px;
 }
 
