@@ -4,14 +4,23 @@ body {
     background-attachment: fixed;
 }
 
-body > div:nth-child(5) > h1{
+/*Название Главное*/
+body > h1 {
+    background-color: rgba(222, 184, 135, 0);
+    font-family: monospace;
+    font-size: 50px;
+    font-style: italic;
+    -webkit-text-stroke: 0.01em #d40000;
+}
+
+/* body > h1{
     font-size: 30px;
     font-style: italic;
     -webkit-text-stroke: 0.01em rgb(220, 38, 38);
 	margin-left: 420px;
     margin-top: 50px;
 	padding-bottom:10px;
-}
+} */
 
 h3 {
     font-size: 26px;
@@ -50,7 +59,7 @@ div:nth-child(8) > p:nth-child(2){
 }
 
 /*Наша миссия..*/
-body > div:nth-child(5) > p:nth-child(3) {
+body > div:nth-child(8) > p:nth-child(3) {
     background-color: rgba(222, 184, 135, 0);
     width: 1170px;
     font-family: monospace;
@@ -62,7 +71,7 @@ body > div:nth-child(5) > p:nth-child(3) {
 }
 
 /*Если для вас очевидно..*/
-body > div:nth-child(5) > p:nth-child(4) {
+body > div:nth-child(8) > p:nth-child(4){
     height: auto;
     width: 350px;
     margin-top: -350px;
@@ -70,7 +79,7 @@ body > div:nth-child(5) > p:nth-child(4) {
 }
 
 /*Мы дружная команда*/
-body > div:nth-child(5) > p:nth-child(5) {
+body > div:nth-child(8) > p:nth-child(5) {
     height: auto;
     width: 350px;
     margin-top: 150px;
@@ -78,7 +87,7 @@ body > div:nth-child(5) > p:nth-child(5) {
 }
 
 /*Благодаря запатентованной..*/
-body > div:nth-child(5) > p:nth-child(6) {
+body > div:nth-child(8) > p:nth-child(6) {
     height: auto;
     width: 350px;
     margin-top: -120px;
@@ -94,7 +103,7 @@ body > div:nth-child(5) > p:nth-child(7) {
 }
 
 /*Заголовок Добро пожаловать*/
-body > div:nth-child(8) > h1 {
+div[name="header"] {
     background-color: rgba(222, 184, 135, 0);
     font-family: monospace;
     font-size: 30px;
@@ -103,17 +112,10 @@ body > div:nth-child(8) > h1 {
     -webkit-text-stroke: 0.01em #d40000;
 }
 
-/*Название Главное*/
-body > h1 {
-    background-color: rgba(222, 184, 135, 0);
-    font-family: monospace;
-    font-size: 50px;
-    font-style: italic;
-    -webkit-text-stroke: 0.01em #d40000;
-}
+
 
 /*Наша Здравница названа...*/
-body > div:nth-child(6) > h2 {
+div[name="aboutUs"]{
     background-image: url("pic/paper.jpg");
     border-spacing: 5px;
     font-size: 18px;
@@ -126,7 +128,7 @@ body > div:nth-child(6) > h2 {
 }
 
 /*Значки*/
-body > div:nth-child(7) {
+div[name="znaki"]{
     margin-top: -330px;
     margin-left: 200px;
 }
@@ -147,14 +149,14 @@ blockquote {
     padding-top: 5px;
     padding-left: 10px;
 }
-/*Блок цитаты*/
-body > div:nth-child(8) {
+/*Блок цитаты босса*/
+div[name="boss"]{
     margin-top: 150px;
     margin-left: 300px;
 }
 
 /*Невозможно отказаться...*/
-body > div:nth-child(9) > p {
+div[name="aboutService"]{
     width: 1253px;
     margin-top: 80px;
     -webkit-text-stroke: 0.03em rgb(119, 66, 160);
@@ -183,13 +185,13 @@ body > div:nth-child(9) > p {
 }
 
 /*Пожертвование*/
-body > div:nth-child(11) {
+div[name="donate"] {
     margin-top: 50px;
     margin-left: 450px;
 }
 
 /*Поддержка*/
-body > div:nth-child(12) {
+div[name="support"] {
     margin-top: -685px;
     padding-top: 5px;
     padding-left: 10px;
@@ -197,17 +199,16 @@ body > div:nth-child(12) {
 }
 
 /*Приведи друга*/
-body > div:nth-child(13) {
+div[name="friend"] {
     margin-top: -590px;
     margin-left: 900px;
-
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 /*Грамота гостя*/
-body > div:nth-child(14){
+div[name="aboutForm"]{
     background-image: url("pic/paper.jpg");
     width: 600px;
     height: auto;
@@ -227,7 +228,7 @@ body > div:nth-child(14){
 }
 
 /*Кнопка Знайте же*/
-body > div:nth-child(14) > form > p > input[type=submit]:nth-child(22) {
+input [name="getinfo"] {
     font-size: 26px;
     font-style: italic;
     -webkit-text-stroke: 0.01em rgb(220, 38, 38);
@@ -238,7 +239,7 @@ body > div:nth-child(14) > form > p > input[type=submit]:nth-child(22) {
 }
 
 /*Кнопка Подбросить*/
-body > div:nth-child(11) > form > input[type=submit]:nth-child(2) {
+div[name="isubmit"] {
     font-size: 26px;
     font-style: italic;
     -webkit-text-stroke: 0.01em rgb(220, 38, 38);
@@ -248,57 +249,57 @@ body > div:nth-child(11) > form > input[type=submit]:nth-child(2) {
 }
 
 /*Регулятор дров*/
-body > div:nth-child(11) > form > input[type=range]:nth-child(1) {
+input[name="amountMoney"] {
     width: 390px;
 }
 
 /*Таблица отзывов*/
-body > div:nth-child(15) > table {
+table[name="tableFeedback"] {
     margin-top: 50px;
 }
 
 /*Анкета гостя*/
-body > div:nth-child(14) > form > p {
+form[name="anketa"] {
     width: 580px;
 }
 
 /*Поле ввода текста в анкете*/
-body > div:nth-child(17) > form > p > textarea {
+textarea[name="comment"] {
     width: 550px;
 }
 
 /*Приветственная картинка чертей*/
-body > div:nth-child(16){
+div name="welcomeMans"]{
     margin-top: -5510px;
     margin-left: 355px;
 }
 
 /*Коллектив*/
-body > div:nth-child(17) {
+div[name="kollektiv"] {
     margin-top: 210px;
     margin-left: 85px;
 }
 
 /*Часы*/
-body > div:nth-child(18) {
+div[name="sand"] {
     margin-top: -420px;
     margin-left: 1050px;
 }
 
 /*Пётр*/
-body > div:nth-child(19) {
+div[name="petr"] {
     margin-top: 80px;
     margin-left: 780px;
 }
 
 /*Телек*/
-body > div:nth-child(20) {
+div[name="tv"] {
     margin-top: 3530px;
     margin-left: 1000px;
 }
 
 /*Видео*/
-body > div:nth-child(21) {
+div [name="video"] {
     margin-top: -315px;
     margin-left: 1040px;
 }
