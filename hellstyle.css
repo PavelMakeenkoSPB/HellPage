@@ -47,9 +47,7 @@ h2 {
     width: 1260px;
     background-color: rgba(222, 184, 135, 0);
     font-family: sans-serif;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+	padding: 5px 10px 5px 10px;
 }
 
 /*Вот и ты здесь..*/
@@ -200,21 +198,20 @@ div[name="friend"] {
 /*Грамота гостя*/
 div[name="aboutForm"]{
     background-image: url("pic/paper.jpg");
-    width: 600px;
+    width: 800px;
     height: auto;
     border: 2px solid #006440;
     border-radius: 21px;
     border-spacing: 5px;
-    margin-top: 190px;
-    margin-left: 360px;
+    margin-top: 150px;
+    margin-left: 0px;
     font-size: 20px;
     font-style: italic;
     -webkit-text-stroke: 0.01em rgb(254, 32, 32);
     text-align: left;
     font-family: sans-serif;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px 10px 5px;
+
 }
 
 /*Кнопка Знайте же*/
@@ -225,7 +222,7 @@ input[name="getinfo"] {
     text-align: center;
     margin-top: 2px;
     margin-bottom: 10px;
-    margin-left: 200px;
+    margin-left: 320px;
 }
 
 /*Кнопка Подбросить*/
@@ -249,8 +246,8 @@ table[name="tableFeedback"] {
 }
 
 /*Анкета гостя*/
-p[name="anketa"]{
-    width: 580px;
+p[name="anketa"] {
+    width: 780px;
 	background-image: url("pic/papeer1.jpg");
     border-spacing: 0px;
     font-size: 18px;
@@ -267,7 +264,7 @@ p[name="anketa"]{
 
 /*Поле ввода текста в анкете*/
 textarea[name="comment"] {
-    width: 550px;
+    width: 770px;
 }
 
 /*Приветственная картинка чертей*/
@@ -296,14 +293,14 @@ div[name="petr"] {
 
 /*Телек*/
 div[name="tv"] {
-    margin-top: 3530px;
-    margin-left: 1000px;
+    margin-top: 3430px;
+    margin-left: 860px;
 }
 
 /*Видео*/
 div[name="vset"] {
     margin-top: -308px;
-    margin-left: 1040px;
+    margin-left: 900px;
 }
 
 /*стили черезстрочной окраски текста таблиц*/
