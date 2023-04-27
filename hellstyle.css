@@ -35,12 +35,10 @@ table,
 p,
 h2 {
     background-image: url("pic/paper.jpg");
-
     border-spacing: 5px;
     font-size: 18px;
     font-style: italic;
-    -webkit-text-stroke: 0.01em rgb(38, 39, 220);
-    text-align: left;
+    text-align: justify;
     border: 2px solid #006440;
     border-radius: 20px;
     height: auto;
@@ -48,6 +46,8 @@ h2 {
     background-color: rgba(222, 184, 135, 0);
     font-family: sans-serif;
 	padding: 5px 10px 5px 10px;
+    -webkit-text-stroke: 0.03em rgb(130, 24, 24);
+
 }
 
 /*Вот и ты здесь..*/
@@ -104,7 +104,6 @@ p[name="petrovich"]{
 
 /*Наша Здравница названа...*/
 div[name="aboutUs"]{
-    background-image: url("pic/paper.jpg");
     border-spacing: 5px;
     font-size: 18px;
     font-style: italic;
