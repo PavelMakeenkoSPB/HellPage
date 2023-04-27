@@ -249,8 +249,20 @@ table[name="tableFeedback"] {
 }
 
 /*Анкета гостя*/
-p[name="anketa"] {
+p[name="anketa"]{
     width: 580px;
+	background-image: url("pic/papeer1.jpg");
+    border-spacing: 0px;
+    font-size: 18px;
+    font-style: italic;
+    -webkit-text-stroke: 0.01em rgb(38, 39, 220);
+    text-align: justify;
+    border: 0px solid #006440;
+    border-radius: 0px;
+    height: auto;
+    background-color: rgba(222, 184, 135, 0);
+    font-family: sans-serif;
+	padding: 5px 10px 5px 10px;
 }
 
 /*Поле ввода текста в анкете*/
@@ -300,4 +312,8 @@ tbody tr:nth-child(odd) {
 }
 tbody tr:nth-child(even) {
     -webkit-text-stroke: 0.03em rgb(119, 66, 160);
+}
+
+.container{
+  min-width: 1270px;
 }
