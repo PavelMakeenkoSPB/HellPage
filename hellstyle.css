@@ -1,5 +1,5 @@
 body {
-    background-image: url("pic/canvas.jpg");
+    background-image: url("pic/fonbaby1.jpg");
     margin: 50px;
     background-attachment: fixed;
 }
@@ -269,7 +269,7 @@ textarea[name="comment"] {
 
 /*Приветственная картинка чертей*/
 div[name="welcomeMans"]{
-    margin-top: -5500px;
+    margin-top: -5530px;
     margin-left: 355px;
 }
 
